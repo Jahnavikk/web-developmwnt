@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Palindrome</title>
+    </head>
+    <body>
+        <script>
+            function isPalindrome(str) {
+             const reversedStr = str.split('').reverse().join('');
+            return str === reversedStr;
+        }
+
+        document.write(isPalindrome("janu")); 
+
+        </script>
+    </body>
+</html>
